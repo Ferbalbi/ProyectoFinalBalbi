@@ -1,0 +1,135 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+h1 {
+  text-align: center;
+  background-color: lightgreen;
+}
+h2 {
+  color: #2ecc71;
+}
+
+.container {
+  background-image: url("https://media.infocielo.com/p/a607d51e76fefb1e03b8c47ba9c02465/adjuntos/299/imagenes/001/619/0001619926/887x0/smart/compras-supermercado-comercio.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2);
+  grid-gap: 20px;
+}
+
+.product {
+  background-color: darkred;
+  color: white;
+  text-align: center;
+  width: 50%;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.product:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.product h3 {
+  margin: 0;
+  font-size: 1.3rem;
+}
+
+.product p {
+  margin: 10px 0;
+  font-size: 1.1rem;
+}
+
+.add-to-cart {
+  background-color: #2ecc71;
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.add-to-cart:hover {
+  background-color: #27ae60;
+}
+
+.cart-container {
+  grid-column: 3;
+  grid-row: span 3;
+  background-color: #fff;
+  border: 1px solid #333;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart {
+  flex: 1;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  overflow-y: auto;
+  width: 100%;
+}
+
+.cart li {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.remove-from-cart {
+  color: #333;
+  background: none;
+  border: none;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: color 0.2s ease-in-out;
+}
+
+.remove-from-cart:hover {
+  color: #e74c3c;
+}
+.cart p {
+  color: black;
+  font-size: 2rem;
+}
+.cart-total {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.boton {
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  align-self: flex-end;
+}
+
+.boton:hover {
+  background-color: #27ae60;
+}

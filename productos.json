@@ -1,0 +1,11 @@
+[
+  { "imagen": "🥚", "id": 1, "name": "Huevos", "price": 200 },
+  { "imagen": "🥛", "id": 2, "name": "Leche", "price": 350 },
+  { "imagen": "🍚", "id": 3, "name": "Azucar", "price": 600 },
+  { "imagen": "🧉", "id": 4, "name": "Yerba", "price": 500 },
+  { "imagen": "🧀", "id": 5, "name": "Queso", "price": 450 },
+  { "imagen": "🥖", "id": 6, "name": "Pan", "price": 350 },
+  { "imagen": "🍖", "id": 7, "name": "Pollo", "price": 1500 },
+  { "imagen": "🥩", "id": 8, "name": "Carne", "price": 2000 },
+  { "imagen": "🧈", "id": 9, "name": "Manteca", "price": 275 }
+]
